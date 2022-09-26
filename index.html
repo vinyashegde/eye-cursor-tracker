@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>He is watching you??</h1>
+    <script defer src="app.js"></script>
+    <style>
+        h1 {text-align: center;}
+        body{
+
+            background-color:#1d1e22;
+            color: #fff;
+            padding: 0;
+            margin: 0;
+        }
+
+        main{
+            display: grid;
+            place-items: center;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        #eyes,#eyes img{
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    
+    <main>
+        <img id="anchor" src="base.png">
+        <div id="eyes">
+            <img class="eye" src="top.png" style="top: -30px;right: 90px;">
+            <img class="eye" src="top.png" style="top: -30px;left: 150px;">
+        </div>
+        
+
+    </main>
+</body>
+</html>
